@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700;900&display=swap");
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -148,10 +147,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
+		font-family: "Inter", sans-serif;
+		font-weight: 400;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.75;
 	}
 
 	a {
@@ -178,11 +177,12 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
+		font-family: "Inter", sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
+		font-family: "Poppins", sans-serif;
+		font-weight: 700;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
@@ -272,8 +272,8 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 5rem 0;
-		}
+		margin: 5rem 0;
+	}
 
 	.align-left {
 		text-align: left;
@@ -2041,6 +2041,7 @@ input, select, textarea {
 		border: solid 2px;
 		margin-bottom: 2rem;
 		padding: 1.5rem;
+		border-radius: 8px;
 	}
 
 		.box > :last-child,
@@ -2089,6 +2090,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		border-radius: 6px;
 	}
 
 		input[type="submit"].icon:before,
@@ -2340,7 +2342,7 @@ input, select, textarea {
 		-ms-appearance: none;
 		appearance: none;
 		background: transparent;
-		border-radius: 0;
+		border-radius: 6px;
 		border: solid 2px;
 		color: inherit;
 		display: block;
@@ -2365,6 +2367,7 @@ input, select, textarea {
 		height: 3rem;
 		padding-right: 3rem;
 		text-overflow: ellipsis;
+		border-radius: 6px;
 	}
 
 		select:focus::-ms-value {
@@ -2384,6 +2387,7 @@ input, select, textarea {
 
 	textarea {
 		padding: 0.75rem 1rem;
+		border-radius: 6px;
 	}
 
 	input[type="checkbox"],
@@ -2474,79 +2478,8 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-	label {
-		color: #212931;
-	}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		border-color: #eeeeee;
-	}
-
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		select:focus,
-		textarea:focus {
-			border-color: #18bfef;
-		}
-
-	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23eeeeee' /%3E%3C/svg%3E");
-	}
-
-		select option {
-			background-color: #ffffff;
-			color: #212931;
-		}
-
-	.select-wrapper:before {
-		color: #eeeeee;
-	}
-
-	input[type="checkbox"] + label,
-	input[type="radio"] + label {
-		color: #212931;
-	}
-
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			border-color: #eeeeee;
-		}
-
-	input[type="checkbox"]:checked + label:before,
-	input[type="radio"]:checked + label:before {
-		background-color: #212931;
-		border-color: #212931;
-		color: #ffffff;
-	}
-
-	input[type="checkbox"]:focus + label:before,
-	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
-	}
-
-	::-webkit-input-placeholder {
-		color: #909498 !important;
-	}
-
-	:-moz-placeholder {
-		color: #909498 !important;
-	}
-
-	::-moz-placeholder {
-		color: #909498 !important;
-	}
-
-	:-ms-input-placeholder {
-		color: #909498 !important;
-	}
-
 	.formerize-placeholder {
-		color: #909498 !important;
+		opacity: 1.0;
 	}
 
 /* Icon */
@@ -3126,7 +3059,6 @@ input, select, textarea {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
-			height: 3rem;
 			letter-spacing: 0.075em;
 			line-height: calc(3rem - 4px);
 			margin-left: -2px;
@@ -3135,6 +3067,7 @@ input, select, textarea {
 			text-align: center;
 			text-decoration: none;
 			text-transform: uppercase;
+			border-radius: 6px;
 		}
 
 		.pagination .next, .pagination .previous {
@@ -3574,6 +3507,7 @@ input, select, textarea {
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
+			border-radius: 8px;
 		}
 
 			#header .logo:hover {
@@ -3714,6 +3648,7 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					border-radius: 6px;
 				}
 
 					#nav ul.links li a:hover {
@@ -4504,6 +4439,7 @@ input, select, textarea {
 		padding: 0.375rem 1.25rem;
 		text-transform: uppercase;
 		z-index: 10001;
+		border-radius: 6px;
 	}
 
 		#navPanelToggle:before {
@@ -4575,6 +4511,7 @@ input, select, textarea {
 		visibility: hidden;
 		width: 20rem;
 		z-index: 10002;
+		border-radius: 8px;
 	}
 
 		#navPanel .links {
@@ -4583,7 +4520,7 @@ input, select, textarea {
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px;
 			}
 
 				#navPanel .links li a {
@@ -4596,6 +4533,7 @@ input, select, textarea {
 					letter-spacing: 0.075em;
 					padding: 0.75rem 0;
 					text-transform: uppercase;
+					border-radius: 6px;
 				}
 
 				#navPanel .links li:first-child {
