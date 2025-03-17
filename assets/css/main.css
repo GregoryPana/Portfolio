@@ -4532,9 +4532,20 @@ input, select, textarea {
 					border-radius: 6px;
 				}
 
+				#navPanel .links li a.active {
+					background-color: rgba(33, 41, 49, 0.2);
+					color: #212931 !important;
+					padding: 0.25rem 0.4rem;
+					margin: 0.25rem 0;
+					display: inline-block;
+					border-radius: 4px;
+				}
+
 				#navPanel .links li:first-child {
 					border-top: 0;
 				}
+				
+				
 
 		#navPanel .close {
 			text-decoration: none;
