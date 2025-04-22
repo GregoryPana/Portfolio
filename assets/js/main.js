@@ -1,5 +1,4 @@
 
-
 (function($) {
 
 	var	$window = $(window),
@@ -268,21 +267,30 @@ $(document).ready(function() {
 	}
 
 	$('a[data-modal="true"]').click(function(e) {
-		e.preventDefault();
-		
+		var isDesktop = window.matchMedia("(min-width: 768px)").matches;
+		var $descContainer = $(this).closest('article').find('.project-description-desktop');
 		var title = $(this).data('title');
 		var image = $(this).data('image');
 		var description = $(this).data('description');
 
-		$('#modalTitle').text(title);
-		$('#modalImage').attr('src', image);
-		$('#modalDescription').text(description);
-
-		modal.style.display = "block";
+		if (isDesktop) {
+			e.preventDefault();
+			if ($descContainer.hasClass('active')) {
+				$descContainer.removeClass('active').html('');
+			} else {
+				$('.project-description-desktop.active').removeClass('active').html('');
+				var html = '';
+				if (description) html += '<p>' + description + '</p>';
+				$descContainer.html(html).addClass('active');
+			}
+		} else {
+			e.preventDefault();
+			$('#modalTitle').text(title);
+			$('#modalImage').attr('src', image);
+			$('#modalDescription').text(description);
+			modal.style.display = "block";
+		}
 	});
 });
-
-
-
 
 })(jQuery);
