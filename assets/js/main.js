@@ -251,4 +251,38 @@
 
 		}
 
+// Add this at the end of main.js, just before the closing parenthesis
+// Modal functionality
+$(document).ready(function() {
+	var modal = document.getElementById("projectModal");
+	var span = document.getElementsByClassName("close")[0];
+
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+
+	$('a[data-modal="true"]').click(function(e) {
+		e.preventDefault();
+		
+		var title = $(this).data('title');
+		var image = $(this).data('image');
+		var description = $(this).data('description');
+
+		$('#modalTitle').text(title);
+		$('#modalImage').attr('src', image);
+		$('#modalDescription').text(description);
+
+		modal.style.display = "block";
+	});
+});
+
+
+
+
 })(jQuery);
