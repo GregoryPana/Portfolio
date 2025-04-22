@@ -4633,6 +4633,25 @@ input, select, textarea {
 
 	}
 
+	/* Desktop inline project description */
+	.project-description-desktop {
+		display: none;
+		margin-top: 1rem;
+		background: #f8f8f8;
+		border: 1px solid #e2e2e2;
+		border-radius: 5px;
+		padding: 1rem;
+		color: #333;
+		font-size: 0.95rem;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+	}
+
+	@media (min-width: 768px) {
+		/* Hide modal on desktop */
+		.modal {
+			display: none !important;
+		}
+	}
 	
 	.modal {
 		display: none;
@@ -4725,3 +4744,20 @@ input, select, textarea {
 	.close:hover {
 		color: #000;
 	}
+
+	/* Inline desktop project description */
+@media (min-width: 768px) {
+	.project-description-desktop {
+	  display: block;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.4s ease;
+	}
+	.project-description-desktop.active {
+	  max-height: 600px; /* adjust as needed */
+	}
+	/* Hide modal on desktop */
+	.modal {
+	  display: none !important;
+	}
+  }
