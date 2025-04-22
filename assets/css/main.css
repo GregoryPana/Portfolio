@@ -4761,3 +4761,29 @@ input, select, textarea {
 	  display: none !important;
 	}
   }
+
+/* Align lists left in inline and modal descriptions */
+.project-description-desktop ul,
+#modalDescription ul {
+    text-align: left;
+    list-style-position: inside;
+    margin: 0.5rem 0 0 1.25rem;
+}
+.project-description-desktop li,
+#modalDescription li {
+    margin-bottom: 0.25rem;
+}
+
+/* Modal image fix: maintain full view without cropping */
+#projectModal .modal-content .modal-image,
+.modal-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+#projectModal .modal-content {
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+}
