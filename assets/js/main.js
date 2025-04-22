@@ -250,11 +250,10 @@
 
 		}
 
-// Add this at the end of main.js, just before the closing parenthesis
 // Modal functionality
 $(document).ready(function() {
 	var modal = document.getElementById("projectModal");
-	var span = document.getElementsByClassName("close")[0];
+	var span = document.querySelector("#projectModal .close");
 
 	span.onclick = function() {
 		modal.style.display = "none";
@@ -280,14 +279,14 @@ $(document).ready(function() {
 			} else {
 				$('.project-description-desktop.active').removeClass('active').html('');
 				var html = '';
-				if (description) html += '<p>' + description + '</p>';
+				if (description) html += description;
 				$descContainer.html(html).addClass('active');
 			}
 		} else {
 			e.preventDefault();
 			$('#modalTitle').text(title);
 			$('#modalImage').attr('src', image);
-			$('#modalDescription').text(description);
+			$('#modalDescription').html(description);
 			modal.style.display = "block";
 		}
 	});
