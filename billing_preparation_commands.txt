@@ -1,0 +1,68 @@
+================================================================================
+BILLING PREPARATION COMMANDS - NOVEMBER 2025 USAGE
+Generated: 2025-12-02
+Execution Period: December 2025 (for November usage)
+================================================================================
+
+Parameters Confirmed:
+- P4 (Late Payment Days): 28 days
+- Collection Plan Start Date: 2025_12_02 00:00:00
+
+Total Commands: 22 (11 Test Mode + 11 Live Mode)
+Log Types: I1A, M1B, M1C, M1F, M1G, M1R, M1U, M1V, M1A, A1A, A1U
+
+================================================================================
+TEST MODE COMMANDS (P2='T')
+================================================================================
+
+P1='I1A' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_I1A.log
+
+P1='M1B' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1B.log
+
+P1='M1C' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1C.log
+
+P1='M1F' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1F.log
+
+P1='M1G' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1G.log
+
+P1='M1R' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1R.log
+
+P1='M1U' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1U.log
+
+P1='M1V' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1V.log
+
+P1='M1A' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1A.log
+
+P1='A1A' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_A1A.log
+
+P1='A1U' P2='T' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_A1U.log
+
+================================================================================
+LIVE MODE COMMANDS (P2='N')
+================================================================================
+
+P1='I1A' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_I1A.log
+
+P1='M1B' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1B.log
+
+P1='M1C' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1C.log
+
+P1='M1F' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1F.log
+
+P1='M1G' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1G.log
+
+P1='M1R' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1R.log
+
+P1='M1U' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1U.log
+
+P1='M1V' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1V.log
+
+P1='M1A' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_M1A.log
+
+P1='A1A' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_A1A.log
+
+P1='A1U' P2='N' P3='2025_12_02 00:00:00' P4='28' P5='2' P6='' P7='' P8='' /cer_cerprod/exe/pspbil0101b.sh | tee /cer_cerprod/log/test_bill_02122025_A1U.log
+
+================================================================================
+END OF PREPARATION COMMANDS
+================================================================================

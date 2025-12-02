@@ -1,0 +1,69 @@
+================================================================================
+BILLING PRINTING COMMANDS - NOVEMBER 2025 USAGE
+Generated: 2025-12-02
+Execution Period: December 2025 (for November usage)
+================================================================================
+
+Parameters Confirmed:
+- P6 (Billing Run UID): 5000
+- Bill To Date: 2025_12_01 00:00:00
+- Bill Due Date: 2025_12_31 23:59:59
+
+Total Commands: 22 (11 Test Mode + 11 Live Mode)
+Log Types: I1A, M1B, M1C, M1F, M1G, M1R, M1U, M1V, M1A, A1A, A1U
+
+================================================================================
+TEST MODE COMMANDS (P2='PBCC=LOG_TYPE|PITM=Y|PTEST=Y')
+================================================================================
+
+P1='S' P2='PBCC=I1A|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_I1A.log
+
+P1='S' P2='PBCC=M1B|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1B.log
+
+P1='S' P2='PBCC=M1C|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1C.log
+
+P1='S' P2='PBCC=M1F|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1F.log
+
+P1='S' P2='PBCC=M1G|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1G.log
+
+P1='S' P2='PBCC=M1R|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1R.log
+
+P1='S' P2='PBCC=M1U|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1U.log
+
+P1='S' P2='PBCC=M1V|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1V.log
+
+P1='S' P2='PBCC=M1A|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1A.log
+
+P1='S' P2='PBCC=A1A|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_A1A.log
+
+P1='S' P2='PBCC=A1U|PITM=Y|PTEST=Y' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_A1U.log
+
+================================================================================
+LIVE MODE COMMANDS (P2='PBCC=LOG_TYPE|PITM=Y|PTEST=N')
+================================================================================
+
+P1='S' P2='PBCC=I1A|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_I1A.log
+
+P1='S' P2='PBCC=M1B|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1B.log
+
+P1='S' P2='PBCC=M1C|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1C.log
+
+P1='S' P2='PBCC=M1F|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1F.log
+
+P1='S' P2='PBCC=M1G|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1G.log
+
+P1='S' P2='PBCC=M1R|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1R.log
+
+P1='S' P2='PBCC=M1U|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1U.log
+
+P1='S' P2='PBCC=M1V|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1V.log
+
+P1='S' P2='PBCC=M1A|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_M1A.log
+
+P1='S' P2='PBCC=A1A|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_A1A.log
+
+P1='S' P2='PBCC=A1U|PITM=Y|PTEST=N' P3='2025_12_01 00:00:00' P4='2025_12_31 23:59:59' P5='N' P6='5000' P7='0' P8='99999999' /cer_cerprod/exe/bil0705s.sh | tee /cer_cerprod/log/test_bill_Print_02122025_A1U.log
+
+================================================================================
+END OF PRINTING COMMANDS
+================================================================================
